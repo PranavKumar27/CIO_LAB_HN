@@ -29,4 +29,4 @@ File object selected in not released hence UOC build is failing
 Progress BAR required as file upload is taking time and user is not updated.
 Can we restore the last selected file by the user. Everytime page refresh occurs we loose track of previous form data.
 
-
+Updated
