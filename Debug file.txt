@@ -1,0 +1,16 @@
+&&& FIRST Time Secondary Fail &&&
+
+Apr 15 14:56:31 xilinx-zynq local4.notice iolink1[638]: (0x06E4) bcIolNumRcvd               clsIoLinkFb::StoreIoLinkVar()        Correct Link Number Rcvd   0x00000001
+Apr 15 14:56:31 xilinx-zynq local4.notice iolink1[638]: (0x06C3) bcIOLStart                 clsIoLinkFb::StartIOLink()           IoLink Starting            0x00000002
+Apr 15 14:56:31 xilinx-zynq local4.notice iolink1[638]: (0x06DB) bcIolinkFbEndload          clsIoLinkFb::EndLoad()               Link FB EndLoad            0x000023FF
+Apr 15 14:56:31 xilinx-zynq local4.notice iolink1[638]: [IOLINK01] 13581467 Secondary Link starting, 0
+Apr 15 14:56:32 xilinx-zynq local4.notice iolink1[638]: (0x0673) bcScs51Idle                IoLinkInterface::ProcScsRplFifo()    SCS_51_IDLE                0x01000000
+Apr 15 14:56:32 xilinx-zynq local4.notice iolink1[638]: (0x0674) bcScs51Run                 IoLinkInterface::ProcScsRplFifo()    SCS_51_RUN                 0x01000000
+Apr 15 14:56:32 xilinx-zynq local4.notice iolink1[638]: (0x0670) bcIolIfInit                IoLinkInterface::Initialize()        Init Complete              0x000000BB
+Apr 15 14:56:32 xilinx-zynq local4.notice iolink1[638]: [IOLINK01] 13581850 Secondary Link startup complete, 383
+Apr 15 14:56:33 xilinx-zynq local4.notice iolink1[638]: (0x06B7) bcIolimPartVisible         clsPartnerMon::SetVisible()          Partner I/F Visible        0x00000000
+Apr 15 14:56:36 xilinx-zynq local4.notice rdnmngr[570]: [RDN] 13585980 Partner drop-sync request, eRdnHistReasonLink1PartnerTMO, appId=11
+Apr 15 14:56:36 xilinx-zynq local4.notice rdnmngr[570]: [RDN] 13585980 Pending Drop synchronization, Partner, eRdnHistReasonLink1PartnerTMO, appId=11
+Apr 15 14:56:36 xilinx-zynq local4.notice rdnmngr[570]: [RDN] 13586180 Partner status timeout (local kCpmSyncInProgress, partner kCpmSyncInProgress, delta 200, timeout 200, msg count 0)
+Apr 15 14:56:36 xilinx-zynq local4.notice rdnmngr[570]: [RDN] 13586180 Drop synchronization, Partner, eRdnHistReasonLink1PartnerTMO, appId=11
+Apr 15 14:56:36 xilinx-zynq local4.notice rdnmngr[570]: [RDN] Redundancy history event, eRdnHistStateAbortSync, eRdnHistReasonLink1PartnerTMO
