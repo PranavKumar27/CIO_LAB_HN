@@ -1,1 +1,15 @@
 Unit test cases
+
+
+1. Check CDASP service is available and restart it
+2. See 'user' folder is there in BIN folder.
+3. user folder must be the member of Local Servers
+4. check the registry setting:
+                        HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Honeywell\TPS50\Generic Comm Layer\Host Config
+                                    PsCdaCeeNtComm: value is .(dot)
+                                    PsCdaCeeNtPeer: value is .(dot)
+                                    PsCdaSrvEvtRcv: value is .(dot)
+                                    PsCdaSrvNamAcc: value is .(dot)
+                                    SCAN value is empty
+5. Check CDASP service is available and restart it
+check this
