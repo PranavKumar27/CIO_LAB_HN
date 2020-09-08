@@ -1,8 +1,4 @@
-!
-! Copyright (c) 2017 Honeywell International Inc. All Rights Reserved
-!
-! Supplied by Honeywell Process Solutions for use in configuring
-! Experion (T) Fault Tolerant Ethernet Systems
+
 !
 ! FTE SWITCH CONFIGURATION TOOL - TEMPLATE: Huawei S2750
 !
