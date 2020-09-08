@@ -1,10 +1,4 @@
-!
-! 
-!
-! Supplied by Honeywell Process Solutions for use in configuring
-! Experion (T) Fault Tolerant Ethernet Systems
-!
-! FTE SWITCH CONFIGURATION TOOL - TEMPLATE: Huawei S2750
+
 !
 !Software Version V200R008C00SPC500
 sysname FTE_NEWLAB_CIO_Y
