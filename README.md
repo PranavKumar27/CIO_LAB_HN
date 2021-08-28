@@ -21,7 +21,7 @@ Initial Design
 
 User inputs index and select F/W file and clicks on Flash button on web page.
 This webpage URI is accessible everywhere in the HON network. 
-The initial phase testing URL is http://10.79.215.150:443/CIO_LAB
+The initial phase testing URL is http://20.179.315.250:647/CIO_LAB
 
 Initial Bugs
 
